@@ -125,10 +125,20 @@ body{
     flex-direction: column;
     justify-content: center;
     background-color: black;
-    box-shadow: 3px 0px 15px red;
+    box-shadow: 3px 0px 50px red;
     margin-left: 15%;
     width: 70%;
     margin-top: 17%;
+    transform: translateX(-50%);
+    opacity: 0;
+    filter: blur(5px);
+    transition: all 1.5s;
+}
+
+#section0 .conts{
+    opacity: 100;
+    transform: translateX(0);
+    filter: blur(0);
 }
 
 #section0 .fa-message{
@@ -151,7 +161,7 @@ body{
     position: absolute;
     color: white;
     margin-top: -3%;
-    margin-left: 69%;
+    margin-left: 68%;
     text-decoration: none;
 }
 
@@ -181,25 +191,19 @@ body{
 #section0 .container .started{
     text-decoration: none;
     position: absolute;
-    margin-left: 22%;
+    margin-left: 30%;
     margin-top: 20%;
     font-size: 150%;
     color: black;
     background-color: red;
     padding-left: 2%;
     padding-right: 2%;
-    transition: 0.5s;
+    transition: 2s;
     animation: rgbanimationn;
     animation-timing-function: ease-in-out;
     animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-}
-
-#section0 .container .started:hover{
-    transition: 0.5s;
-    font-size: 163%;
-    margin-left: 22%;
 }
 
 /* @keyframes rgbanimationn{
@@ -735,7 +739,7 @@ footer .yt{
     }
 
     #section0 .design{
-        margin-left: 65%;
+        margin-left: 63.5%;
         margin-top: -3.5%;
     }
 
@@ -915,7 +919,7 @@ footer .yt{
     }
     
     #section0 .design{
-        margin-left: 64%;
+        margin-left: 63%;
         margin-top: -4.5%;
     }
 
@@ -1138,7 +1142,7 @@ footer .yt{
     .cell-phone{
         background-color: #111;
         width: 100%;
-        height: 100vh;
+        height: 140vh;
     }
 
     .second{
@@ -1194,7 +1198,7 @@ footer .yt{
         margin-top: 25%;
         margin-left: 25%;
         width: 50%;
-        height: 50vh;
+        height: 45vh;
         border-radius: 2rem;
         box-shadow: 4px 0px 25px grey;
         position: absolute;
@@ -1260,7 +1264,7 @@ footer .yt{
 
     #second{
         width: 100%;
-        height: 230vh;
+        height: 300vh;
     }
 
     #second .welcome{
@@ -1335,7 +1339,7 @@ footer .yt{
     /*      section 3         */
     #pangatlo{
         width: 100%;
-        height: 150vh;
+        height: 200vh;
     }
 
     #pangatlo #tshirt{
@@ -1413,7 +1417,7 @@ footer .yt{
 
     #tungkol .likod{
         width: 70%;
-        height: 50vh;
+        height: 70vh;
         margin-left: 15%;
         margin-top: 20%;
         position: absolute;
@@ -1505,5 +1509,769 @@ footer .yt{
         width: 60%;
         margin-left: 20%;
         margin-top: 20%;
+    }
+}
+
+@media screen and (max-width: 624px) and (min-width: 425px) {
+    #cell-phone{
+        display: block;
+    }
+
+    html{
+        scroll-behavior: smooth;
+    }
+
+    .cell-phone{
+        background-color: #111;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .second{
+        display: block;
+    }
+
+    #main1{
+        display: none;
+    }
+
+    #pangatlo{
+        display: block;
+    }
+
+    #tungkol{
+        display: block;
+    }
+
+    #paa-foot{
+        display: block;
+    }
+
+    .custom-shape-divider-top-1674724246 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+    }
+    
+    .custom-shape-divider-top-1674724246 svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 150px;
+    }
+    
+    .custom-shape-divider-top-1674724246 .shape-fill {
+        fill: grey;
+    }
+    
+    /** For mobile devices **/
+    @media (max-width: 767px) {
+        .custom-shape-divider-top-1674724246 svg {
+            width: calc(100% + 1.3px);
+            height: 126px;
+        }
+    }
+
+    .main{
+        background-color: black;
+        margin-top: 40%;
+        margin-left: 25%;
+        width: 50%;
+        height: 35vh;
+        border-radius: 2rem;
+        box-shadow: 4px 0px 25px grey;
+        position: absolute;
+    }
+
+    .board1{
+        width: 60%;
+        margin-top: 5%;
+        margin-left: 20%;
+        position: absolute;
+    }
+
+    .contact1{
+        position: absolute;
+        text-decoration: none;
+        margin-top: 68%;
+        margin-left: 5%;
+        color: white;
+        font-size: 15px;
+    }
+
+    .tshirts1{
+        position: absolute;
+        text-decoration: none;
+        margin-top: 78%;
+        margin-left: 5%;
+        color: white;
+        font-size: 15px;
+    }
+
+    .designs1{
+        position: absolute;
+        text-decoration: none;
+        margin-top: 88%;
+        margin-left: 5%;
+        color: white;
+        font-size: 15px;
+    }
+
+    .fa-sun{
+        color: black;
+        font-size: 200%;
+        margin-top: 88%;
+        margin-left: 85%;
+        position: absolute;
+        opacity: 0;
+    }
+
+    .fa-moon{
+        color: red;
+        font-size: 200%;
+        margin-top: 88%;
+        margin-left: 85%;
+        position: absolute;
+        opacity: 100;
+    }
+
+    div h1{
+        color: red;
+    }
+
+    /*     second line     */
+
+    #second{
+        width: 100%;
+        height: 160vh;
+    }
+
+    #second .welcome{
+        color: white;
+        text-shadow: 2px 2px 2px red;
+        text-align: center;
+    }
+
+    #second #printer{
+        text-align: center;
+        margin-top: 5%;
+        color: white;
+        text-shadow: 2px 2px 2px red;
+    }
+
+    .second .img1{
+        position: absolute;
+        width: 40%;
+        margin-left: 5%;
+        margin-top: 10%;
+        box-shadow: 3px 0px 15px red;
+    }
+
+    .second .img2{
+        position: absolute;
+        width: 40%;
+        margin-left: 50%;
+        margin-top: 10%;
+        box-shadow: 3px 0px 15px red;
+    }
+
+    .second .img3{
+        position: absolute;
+        width: 40%;
+        margin-top: 55%;
+        margin-left: 5%;
+        box-shadow: 3px 0px 15px red;
+    }
+
+    .second .img4{
+        position: absolute;
+        width: 40%;
+        margin-top: 62.5%;
+        margin-left: 50%;
+        box-shadow: 3px 0px 15px red;
+    }
+
+    .second .img5{
+        position: absolute;
+        width: 40%;
+        margin-top: 105%;
+        margin-left: 5%;
+        box-shadow: 3px 0px 15px red;
+    }
+
+    .second .img55{
+        position: absolute;
+        width: 80%;
+        margin-top: 165%;
+        margin-left: 7%;
+        box-shadow: 3px 0px 15px red;
+    }
+
+    .second .img56{
+        position: absolute;
+        width: 40%;
+        margin-top: 105%;
+        margin-left: 50%;
+        box-shadow: 3px 0px 15px red;
+    }
+
+    /*      section 3         */
+    #pangatlo{
+        width: 100%;
+        height: 110vh;
+    }
+
+    #pangatlo #tshirt{
+        color: white;
+        text-shadow: 2px 2px 2px red;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    #pangatlo .img6{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        opacity: 0;
+        transition: all 3.5s;
+        box-shadow: 3px 0px 50px red;
+    }
+
+    #pangatlo .shirt1{
+        opacity: 100;
+    }
+
+    #pangatlo .img7{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        margin-top: 5%;
+        opacity: 0;
+        transition: all 3.5s;
+        box-shadow: 3px 0px 50px deepskyblue;
+    }
+
+    #pangatlo .shirt2{
+        opacity: 100;
+    }
+
+    #pangatlo .img8{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        margin-top: 5%;
+        opacity: 0;
+        transition: all 3.5s;
+        box-shadow: 3px 0px 50px red;
+    }
+
+    #pangatlo .shirt3{
+        opacity: 100;
+    }
+
+    #pangatlo .img9{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        margin-top: 5%;
+        opacity: 0;
+        transition: all 3.5s;
+        box-shadow: 3px 0px 50px deepskyblue;
+    }
+
+    #pangatlo .shirt4{
+        opacity: 100;
+    }
+
+    /*  tungkol       */
+
+    #tungkol{
+        width: 100%;
+        height: 80vh;
+    }
+
+    #tungkol .likod{
+        width: 70%;
+        height: 60vh;
+        margin-left: 15%;
+        margin-top: 20%;
+        position: absolute;
+        background-color: black;
+        border-radius: 2rem;
+        padding: 2%;
+    }
+
+    #tungkol .head{
+        color: white;
+        text-shadow: 3px 0px 15px red;
+        text-align: center;
+        padding: 2%;
+    }
+
+    #tungkol .head img{
+        width: 10%;
+        margin-left: 20%;
+        margin-top: -2%;
+        position: absolute;
+    }
+
+    #tungkol p{
+        color: white;
+        padding: 2%;
+        font-size: 13px;
+        margin-top: 5%;
+    }
+
+    #tungkol span{
+        color: red;
+    }
+
+    #tungkol .omsim{
+        text-decoration: none;
+        margin: 2%;
+        color: red;
+        position: absolute;
+    }
+
+    #tungkol .shirtt{
+        margin-top: -2%;
+        position: absolute;
+    }
+
+    #tungkol .senyo{
+        position: absolute;
+        margin-top:  -2%;
+        margin-left: 20%;
+    }
+
+    /*   footer     */
+
+    footer{
+        height: 40vh;
+    }
+
+    footer img{
+        margin-left: 10%;
+    }
+
+    footer p{
+        color: white;
+        font-size: 10px;
+        margin-left: 5%;
+        margin-top: -3%;
+    }
+
+    footer .fb{
+        color: white;
+        margin-left: 30%;
+        margin-top: 10%;
+    }
+
+    footer .yt{
+        color: white;
+        margin-left: 45%;
+        margin-top: 10%;
+    }
+
+    footer .tt{
+        color: white;
+        margin-left: 60%;
+        margin-top: 10%;
+    }
+
+    footer .line{
+        border: 1px solid red;
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 23%;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    #cell-phone{
+        display: block;
+    }
+
+    html{
+        scroll-behavior: smooth;
+    }
+
+    .cell-phone{
+        background-color: #111;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .second{
+        display: block;
+    }
+
+    #main1{
+        display: none;
+    }
+
+    #pangatlo{
+        display: block;
+    }
+
+    #tungkol{
+        display: block;
+    }
+
+    #paa-foot{
+        display: block;
+    }
+
+    .custom-shape-divider-top-1674724246 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+    }
+    
+    .custom-shape-divider-top-1674724246 svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 150px;
+    }
+    
+    .custom-shape-divider-top-1674724246 .shape-fill {
+        fill: grey;
+    }
+    
+    /** For mobile devices **/
+    @media (max-width: 767px) {
+        .custom-shape-divider-top-1674724246 svg {
+            width: calc(100% + 1.3px);
+            height: 126px;
+        }
+    }
+
+    .main{
+        background-color: black;
+        margin-top: 70%;
+        margin-left: 15%;
+        width: 75%;
+        height: 35vh;
+        border-radius: 2rem;
+        box-shadow: 4px 0px 25px grey;
+        position: absolute;
+    }
+
+    .board1{
+        width: 60%;
+        margin-top: 5%;
+        margin-left: 20%;
+        position: absolute;
+    }
+
+    .contact1{
+        position: absolute;
+        text-decoration: none;
+        margin-top: 68%;
+        margin-left: 5%;
+        color: white;
+        font-size: 15px;
+    }
+
+    .tshirts1{
+        position: absolute;
+        text-decoration: none;
+        margin-top: 78%;
+        margin-left: 5%;
+        color: white;
+        font-size: 15px;
+    }
+
+    .designs1{
+        position: absolute;
+        text-decoration: none;
+        margin-top: 88%;
+        margin-left: 5%;
+        color: white;
+        font-size: 15px;
+    }
+
+    .fa-sun{
+        color: black;
+        font-size: 200%;
+        margin-top: 88%;
+        margin-left: 85%;
+        position: absolute;
+        opacity: 0;
+    }
+
+    .fa-moon{
+        color: red;
+        font-size: 200%;
+        margin-top: 88%;
+        margin-left: 85%;
+        position: absolute;
+        opacity: 100;
+    }
+
+    div h1{
+        color: red;
+    }
+
+    /*     second line     */
+
+    #second{
+        width: 100%;
+        height: 100vh;
+    }
+
+    #second .welcome{
+        color: white;
+        text-shadow: 2px 2px 2px red;
+        text-align: center;
+    }
+
+    #second #printer{
+        text-align: center;
+        margin-top: 5%;
+        color: white;
+        text-shadow: 2px 2px 2px red;
+    }
+
+    .second .img1{
+        position: absolute;
+        width: 40%;
+        margin-left: 5%;
+        margin-top: 10%;
+        box-shadow: 3px 0px 15px red;
+    }
+
+    .second .img2{
+        position: absolute;
+        width: 40%;
+        margin-left: 50%;
+        margin-top: 10%;
+        box-shadow: 3px 0px 15px red;
+    }
+
+    .second .img3{
+        position: absolute;
+        width: 40%;
+        margin-top: 55%;
+        margin-left: 5%;
+        box-shadow: 3px 0px 15px red;
+    }
+
+    .second .img4{
+        position: absolute;
+        width: 40%;
+        margin-top: 62.5%;
+        margin-left: 50%;
+        box-shadow: 3px 0px 15px red;
+    }
+
+    .second .img5{
+        position: absolute;
+        width: 40%;
+        margin-top: 105%;
+        margin-left: 5%;
+        box-shadow: 3px 0px 15px red;
+    }
+
+    .second .img55{
+        position: absolute;
+        width: 80%;
+        margin-top: 165%;
+        margin-left: 7%;
+        box-shadow: 3px 0px 15px red;
+    }
+
+    .second .img56{
+        position: absolute;
+        width: 40%;
+        margin-top: 105%;
+        margin-left: 50%;
+        box-shadow: 3px 0px 15px red;
+    }
+
+    /*      section 3         */
+    #pangatlo{
+        width: 100%;
+        height: 70vh;
+    }
+
+    #pangatlo #tshirt{
+        color: white;
+        text-shadow: 2px 2px 2px red;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    #pangatlo .img6{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        opacity: 0;
+        transition: all 3.5s;
+        box-shadow: 3px 0px 50px red;
+    }
+
+    #pangatlo .shirt1{
+        opacity: 100;
+    }
+
+    #pangatlo .img7{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        margin-top: 5%;
+        opacity: 0;
+        transition: all 3.5s;
+        box-shadow: 3px 0px 50px deepskyblue;
+    }
+
+    #pangatlo .shirt2{
+        opacity: 100;
+    }
+
+    #pangatlo .img8{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        margin-top: 5%;
+        opacity: 0;
+        transition: all 3.5s;
+        box-shadow: 3px 0px 50px red;
+    }
+
+    #pangatlo .shirt3{
+        opacity: 100;
+    }
+
+    #pangatlo .img9{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        margin-top: 5%;
+        opacity: 0;
+        transition: all 3.5s;
+        box-shadow: 3px 0px 50px deepskyblue;
+    }
+
+    #pangatlo .shirt4{
+        opacity: 100;
+    }
+
+    /*  tungkol       */
+
+    #tungkol{
+        width: 100%;
+        height: 80vh;
+    }
+
+    #tungkol .likod{
+        width: 70%;
+        height: 60vh;
+        margin-left: 15%;
+        margin-top: 20%;
+        position: absolute;
+        background-color: black;
+        border-radius: 2rem;
+        padding: 2%;
+    }
+
+    #tungkol .head{
+        color: white;
+        text-shadow: 3px 0px 15px red;
+        text-align: center;
+        padding: 2%;
+    }
+
+    #tungkol .head img{
+        width: 10%;
+        margin-left: 20%;
+        margin-top: -2%;
+        position: absolute;
+    }
+
+    #tungkol p{
+        color: white;
+        padding: 2%;
+        font-size: 13px;
+        margin-top: 5%;
+    }
+
+    #tungkol span{
+        color: red;
+    }
+
+    #tungkol .omsim{
+        text-decoration: none;
+        margin: 2%;
+        color: red;
+        position: absolute;
+    }
+
+    #tungkol .shirtt{
+        margin-top: -2%;
+        position: absolute;
+    }
+
+    #tungkol .senyo{
+        position: absolute;
+        margin-top:  -2%;
+        margin-left: 28%;
+    }
+
+    /*   footer     */
+
+    footer{
+        height: 25vh;
+    }
+
+    footer img{
+        margin-left: 35%;
+    }
+
+    footer p{
+        color: white;
+        font-size: 10px;
+        margin-left: 10%;
+        margin-top: -3%;
+    }
+
+    footer .fb{
+        color: white;
+        margin-left: 25%;
+        margin-top: 10%;
+    }
+
+    footer .yt{
+        color: white;
+        margin-left: 45%;
+        margin-top: 10%;
+    }
+
+    footer .tt{
+        color: white;
+        margin-left: 65%;
+        margin-top: 10%;
+    }
+
+    footer .line{
+        border: 1px solid red;
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 30%;
     }
 }

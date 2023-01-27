@@ -72,7 +72,7 @@ function ilaws(){
     document.getElementById('tabibee').style.color = 'white';
     document.getElementById('started').style.backgroundColor = 'red'
     document.getElementById('started').style.color = 'black'
-    document.getElementById('container').style.boxShadow = '3px 0px 15px red';
+    document.getElementById('container').style.boxShadow = '3px 0px 50px red';
     document.getElementById('bs').style.boxShadow = '3px 0px 15px red'
     document.getElementById('bss').style.boxShadow = '3px 0px 15px red'
     document.getElementById('bsss').style.boxShadow = '3px 0px 15px red'
@@ -208,6 +208,24 @@ function backk(){
     })
 }
 
+const sheesh = document.querySelectorAll('.container');
+window.addEventListener('load', cont)
+
+function cont(){
+    const triggerBottom = innerHeight / 5 * 4;
+
+    sheesh.forEach(conts => {
+        const contsTop = conts.getBoundingClientRect().top;
+
+        if(contsTop < triggerBottom){
+            conts.classList.add('conts')
+        }
+        else{
+            conts.classList.remove('conts')
+        }
+    })
+}
+
 
 
 
@@ -240,6 +258,7 @@ function off(){
     document.getElementById('img77').style.boxShadow = '3px 0px 50px red'
     document.getElementById('img88').style.boxShadow = '3px 0px 50px deepskyblue'
     document.getElementById('img99').style.boxShadow = '3px 0px 50px red'
+    document.getElementById('tungkol').style.backgroundColor = 'white'
 }
 
 function on(){
@@ -269,5 +288,5 @@ function on(){
     document.getElementById('img77').style.boxShadow = '3px 0px 50px deepskyblue'
     document.getElementById('img88').style.boxShadow = '3px 0px 50px red'
     document.getElementById('img99').style.boxShadow = '3px 0px 50px deepskyblue'
-
+    document.getElementById('tungkol').style.backgroundColor = '#111'
 }
