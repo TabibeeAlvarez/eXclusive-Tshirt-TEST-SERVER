@@ -2028,7 +2028,7 @@ footer .yt{
 
     #second{
         width: 100%;
-        height: 100vh;
+        height: 140vh;
     }
 
     #second .welcome{
@@ -2103,7 +2103,7 @@ footer .yt{
     /*      section 3         */
     #pangatlo{
         width: 100%;
-        height: 70vh;
+        height: 100vh;
     }
 
     #pangatlo #tshirt{
@@ -2176,12 +2176,12 @@ footer .yt{
 
     #tungkol{
         width: 100%;
-        height: 80vh;
+        height: 100vh;
     }
 
     #tungkol .likod{
         width: 70%;
-        height: 60vh;
+        height: 80vh;
         margin-left: 15%;
         margin-top: 20%;
         position: absolute;
