@@ -2199,8 +2199,8 @@ footer .yt{
 
     #tungkol .head img{
         width: 10%;
-        margin-left: 20%;
-        margin-top: -2%;
+        margin-left: 10%;
+        margin-top: 1%;
         position: absolute;
     }
 
@@ -2236,7 +2236,7 @@ footer .yt{
     /*   footer     */
 
     footer{
-        height: 25vh;
+        height: 35vh;
     }
 
     footer img{

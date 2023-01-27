@@ -249,16 +249,18 @@ function off(){
     document.getElementById('sssssb').style.boxShadow = '3px 0px 15px deepskyblue'
     document.getElementById('ssssssb').style.boxShadow = '3px 0px 15px deepskyblue'
     document.getElementById('sssssssb').style.boxShadow = '3px 0px 15px deepskyblue'
-    document.getElementById('welcomee').style.textShadow = '2px 2px 2px black'
-    document.getElementById('welcomee').style.color = 'deepskyblue'
-    document.getElementById('printer').style.textShadow = '2px 2px 2px black'
-    document.getElementById('printer').style.color = 'deepskyblue'
+    document.getElementById('welcomee').style.textShadow = '2px 2px 2px deepskyblue'
+    document.getElementById('welcomee').style.color = 'black'
+    document.getElementById('printer').style.textShadow = '2px 2px 2px deepskyblue'
+    document.getElementById('printer').style.color = 'black'
     document.getElementById('pangatlo').style.backgroundColor = 'white'
     document.getElementById('img66').style.boxShadow = '3px 0px 50px deepskyblue'
     document.getElementById('img77').style.boxShadow = '3px 0px 50px red'
     document.getElementById('img88').style.boxShadow = '3px 0px 50px deepskyblue'
     document.getElementById('img99').style.boxShadow = '3px 0px 50px red'
     document.getElementById('tungkol').style.backgroundColor = 'white'
+    document.querySelector('.shirTE').style.color = 'black'
+    document.querySelector('.shirTE').style.textShadow = '3px 0px 50px deepskyblue'
 }
 
 function on(){
@@ -289,4 +291,6 @@ function on(){
     document.getElementById('img88').style.boxShadow = '3px 0px 50px red'
     document.getElementById('img99').style.boxShadow = '3px 0px 50px deepskyblue'
     document.getElementById('tungkol').style.backgroundColor = '#111'
+    document.querySelector('.shirTE').style.color = 'white'
+    document.querySelector('.shirTE').style.textShadow = '3px 0px 50px red'
 }
