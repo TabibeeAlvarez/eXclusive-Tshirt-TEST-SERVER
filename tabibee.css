@@ -14,6 +14,22 @@ body{
     background-color: #111;
 }
 
+/*  hides   */
+
+#cell-phone{
+    display: none;
+}
+
+.second{
+    display: none;
+}
+
+#pangatlo{
+    display: none;
+}
+
+/*   end of hides   */
+
 #section0{
     width: 100%;
     height: 100vh;
@@ -56,6 +72,7 @@ body{
 #section0 .inputs{
     text-decoration: none;
     color: white;
+    background-color: red;
     padding-left: 2%;
     padding-right: 2%;
     margin-top: -13%;
@@ -89,6 +106,7 @@ body{
 }
 
 #section0 .inputss:hover{
+    background-color: red;
     transition: 0.5s;
     padding-left: 2%;
     padding-right: 2%;
@@ -352,7 +370,7 @@ body{
     margin-top: 10%;
     margin-left: 30%;
     position: absolute;
-    transform: translateY(-50%);
+    transform: translateX(-50%);
     transition: all 0.5s;
     filter: blur(5px);
     opacity: 0;
@@ -361,7 +379,7 @@ body{
 #section2 .shirt1{
     opacity: 100;
     transition: 1.5s;
-    transform: translateY(0);
+    transform: translateX(0);
     filter: blur(0);
 }
 
@@ -371,7 +389,7 @@ body{
     margin-top: 37%;
     margin-left: 30%;
     position: absolute;
-    transform: translateY(50%);
+    transform: translate(50%);
     opacity: 0;
     transition: all 1.5s;
     filter: blur(5px);
@@ -380,7 +398,7 @@ body{
 #section2 .shirt2{
     opacity: 100;
     filter: blur(0);
-    transform: translateY(0);
+    transform: translateX(0);
 }
 
 #section2 .img8{
@@ -389,7 +407,7 @@ body{
     margin-top: 64%;
     margin-left: 30%;  
     position: absolute;
-    transform: translateY(-50%);
+    transform: translateX(-50%);
     opacity: 0;
     filter: blur(5px);
     transition: all 1.5s;
@@ -398,7 +416,7 @@ body{
 #section2 .shirt3{
     opacity: 100;
     filter: blur(0);
-    transform: translateY(0);
+    transform: translateX(0);
 }
 
 #section2 .img9{
@@ -407,14 +425,14 @@ body{
     margin-top: 91%;
     margin-left: 30%;  
     position: absolute;
-    transform: translateY(50%);
+    transform: translateX(50%);
     opacity: 0;
     filter: blur(5px);
     transition: all 1.5s;
 }
 
 #section2 .shirt4{
-    transform: translateY(0);
+    transform: translateX(0);
     filter: blur(0);
     opacity: 100;
 }
@@ -629,328 +647,113 @@ footer .yt{
 
 /* mobile responsive*/
 
-@media screen and (max-width: 1600px) and (min-width: 1481px) {
-
-    #section1{
-        width: 100%;
-        height: 130vh;
-    }
-
-    #section1 .welcome{
-        margin-left: 26%;
-    }
-
-
-    /*  section 3  */
-
-    #section3{
-        width: 100%;
-        height: 110vh;
-    }
-
-    #section3 p{
-        font-size: 140%;
-    }
-
-    /*   section 2    */
-    #section2{
-        width: 100%;
-        height: 240vh;
-    }
-    
-    /*   section 3    */
-}
-
-@media screen and (max-width: 1480px) and (min-width: 1440px){
-
-    #section1{
-        width: 100%;
-        height: 130vh;
-    }
-
-    #section1 .welcome{
-        margin-left: 26%;
-    }
-
-    #section1 h1{
-        margin-top: 1%;
-        margin-left: -10%;
-    }
-
-    /*   section1  */
-
-    #section3 .likod{
-        height: 85vh;
-    }
-
-    #section3 .tshirt{
-        margin-top: 70%;
-    }
-    
-    #section3 .desenyo{
-        margin-top: 70%;
-    }
-}
-
-@media screen and (max-width: 1439px) and (min-width: 1356px) {
-
-    #section1{
-        width: 100%;
-        height: 130vh;
-    }
-
-    #section1 .welcome{
-        margin-left: 23%;
-        margin-top: 0%;
-    }
-
-    /*   section1  */
-    
-    #section3 .likod{
-        height: 85vh;
-    }
-
-    #section3 .tshirt{
-        margin-top: 70%;
-    }
-
-    #section3 .desenyo{
-        margin-top: 70%;
-    }
-
-    #section3 .bg{
-        height: 50%;
-    }
-
-    #section3 .qualification{
-        margin-top: 120%;
-    }
-}
-
-@media screen and (max-width: 1355px) and (min-width: 1263px) {
-    
-    #section1{
-        width: 100%;
-        height: 130vh;
-    }
-
-    #section1 .welcome{
-        margin-left: 20%;
-        margin-top: 1%;
-    }
-
-    /*   section1  */
-    
-    #section3 .likod{
-        height: 80vh;
-        width: 59%;
-    }
-
-    #section3 p{
-        font-size: 23px;
-    }
-
-    #section3 .tshirt{
-        margin-top: 55%;
-    }
-
-    #section3 .desenyo{
-        margin-top: 55%;
-    }
-
-    #section3 .bg{
-        margin-left: 103%;
-    }
-
-    /*   section 2    */
-    #section2{
-        width: 100%;
-    }
-
-    /*   section 3    */
-}
-
-@media screen and (max-width: 1262px) and (min-width: 1162px){
-    #section0 .container{
-        margin-top: 20%;
+@media screen and (max-width: 1600px) and (min-width: 1440px) {
+    #section0 .container h1{
+        margin-top: 2%;
     }
 
     #section0 .container .started{
-        margin-top: 23%;
-        margin-left: 20%;
+        margin-top: 22%;
     }
 
-    #section0 .fa-message{
-        margin-top: -4%;
+    #section2{
+        width: 100%;
+        height: 180vh;
     }
 
-    #section0 .tt{
-        margin-top: -4%;
-    }
-
-    #section0 .design{
-        margin-top: -4%;
-    }
-
-    #section0 .contact{
-        margin-top: -4%;
-    }
-
-    #section0 .inputs{
-        margin-left: 63%;
-        margin-top: -15%;
-    }
-
-    #section0 .inputss{
-        margin-left: 63%;
-        margin-top: -15%;
-    }
-
-    /*   section 1      */
+    /*     section 1     */
     #section1{
         width: 100%;
-        height: 120vh;
-    }
-
-    #section1 .welcome{
-        margin-left: 15%;
-    }
-
-    #section1 .prints{
-        margin-top: 15%;
-    }
-
-    #section1 .img1{
-        margin-top: 20%;
-    }
-
-    #section1 .img2{
-        margin-top: 20%;
+        height: 150vh;
     }
 
     #section1 .img3{
-        margin-top: 20%;
+        margin-left: 50%;
     }
 
     #section1 .img4{
-        margin-top: 20%;
-    }
-
-    #section1 .img5{
-        margin-top: 40%;
+        margin-left: 70%;
     }
 
     #section1 .img55{
-        margin-top: 44.3%;
+        margin-left: 28%;
     }
 
     #section1 .img56{
-        margin-top: 40%;
+        margin-left: 70%;
     }
 
-    /*    section2       */
-    #section2{
+
+    /*    section 2     */
+    #section2 {
         width: 100%;
-        height: 240vh;
-    }
-
-    #section2 .img6{
-        width: 50%;
-        margin-top: 13%;
-        margin-left: 26%;
-    }
-
-    #section2 .img7{
-        width: 50%;
-        margin-top: 45%;
-        margin-left: 26%;
-    }
-
-    #section2 .img8{
-        width: 50%;
-        margin-top: 77%;
-        margin-left: 26%;
-    }
-
-    #section2 .img9{
-        width: 50%;
-        margin-top: 109%;
-        margin-left: 26%;
+        height: 250vh;
     }
 
     /*    section 3      */
-    #section3{
-        width: 100%;
-        height: 110vh;
-    }
+     #section3 p{
+        font-size: 140%;
+     }
 
-    #section3 .likod{
-        width: 60%;
-    }
+     #section3 .omsim{
+        margin-top: 60%;
+     }
 
-    #section3 p{
-        font-size: 22px;
-    }
+     #section3 .tshirt{
+        margin-top: 55%;
+     }
 
-    #section3 .tshirt{
-        margin-top: 63%;
-    }
-
-    #section3 .desenyo{
-        margin-top: 63%;
-    }
-
-    #section3 .bg{
-        margin-left: 102%;
-        width: 50%;
-    }
+     #section3 .desenyo{
+        margin-top: 55%;
+     }
 }
 
-@media screen and (max-width: 1161px) and (min-width: 1024px) {
+@media screen and (max-width: 1439px) and (min-width: 1024px) {
+    #section0{
+        width: 100%;
+        height: 70vh;
+    }
     #section0 .container{
-        margin-top: 30%;
-        width: 85%;
-        margin-left: 8%;
+        margin-top: 20%;
     }
 
     #section0 .container .started{
         margin-top: 25%;
-        margin-left: 25%;
-    }
-
-    #section0 .fa-message{
-        margin-top: -5%;
-        margin-left: 87%;
     }
 
     #section0 .tt{
-        margin-top: -5%;
-        margin-left: 79%;
+        margin-left: 72%;
+        margin-top: -3.5%;
     }
 
     #section0 .design{
-        margin-top: -5%;
-        margin-left: 71.5%;
+        margin-left: 65%;
+        margin-top: -3.5%;
     }
 
     #section0 .contact{
-        margin-top: -5%;
+        margin-left: 55%;
+        margin-top: -3.5%;
     }
 
-    /*     section 1      */
+    #section0 .fa-message{
+        margin-top: -4.5%;
+    }
+
+    /*  section 1     */
     #section1{
         width: 100%;
-        height: 120vh;
+        height: 100vh;
     }
 
     #section1 .welcome{
-        margin-left: 19%;
-        font-size: 40px;
+        margin-top: 2%;
+        margin-left: 12%;
     }
 
     #section1 .prints{
-        font-size: 35px;
         margin-top: 15%;
+        font-size: 45px;
     }
 
     #section1 .img1{
@@ -972,295 +775,77 @@ footer .yt{
     #section1 .img5{
         margin-top: 40%;
     }
-
+    
     #section1 .img55{
-        margin-top: 44.3%;
+        margin-top: 44.5%;
     }
-
+    
     #section1 .img56{
         margin-top: 40%;
     }
 
-    /*     section 2       */
+    /*    section 2      */
     #section2{
         width: 100%;
         height: 200vh;
     }
 
-    #section2 .T{
-        margin-left: 40%;
-    }
-
     #section2 .img6{
         width: 50%;
-        margin-top: 13%;
-        margin-left: 26%;
+        margin-left: 27%;
     }
 
     #section2 .img7{
         width: 50%;
-        margin-top: 47%;
-        margin-left: 26%;
+        margin-left: 27%;
+        margin-top: 43%;
     }
 
     #section2 .img8{
         width: 50%;
-        margin-top: 81%;
-        margin-left: 26%;
+        margin-left: 27%;
+        margin-top: 77%;
     }
 
     #section2 .img9{
         width: 50%;
-        margin-top: 115%;
-        margin-left: 26%;
+        margin-left: 27%;
+        margin-top: 110%;
     }
 
-    /*    section3     */
+    /*   section3    */
     #section3{
         width: 100%;
-        height: 110vh;
+        height: 100vh;
     }
 
     #section3 .likod{
-        height: 60vh;
-        margin-top: 10%;
+        width: 52%;
+        height: 70%;
+    }
+
+    #section3 .art{
+        margin-left: 21%;
+        margin-top: -2%;
     }
 
     #section3 p{
-        font-size: 15px;
+        font-size: 16.2px;
+    }
+
+    #section3 .tshirt{
+        margin-top: 62%
+    }
+
+    #section3 .desenyo{
+        margin-top: 62%;
     }
 
     #section3 .bg{
-        margin-top: -25%;
         width: 50%;
-        height: 50%;
-    }
-
-    /*    footer      */
-    footer{
-        width: 100%;
-        height: 35vh;
-    }
-
-    footer table{
-        margin-left: 33%;
-    }
-
-    footer .copyright{
-        margin-top: 17%;
-        margin-left: 34%;
-    }
-
-    footer .you{
-        margin-top: 5%;
-    }
-
-    footer .fb{
-        margin-top: 8%;
-    }
-
-    footer .yt{
-        margin-top: 8%;
-    }
-
-    footer .tt{
-        margin-top: 8%;
-    }
-
-}
-
-@media screen and (max-width: 1023px) and (min-width: 768px) {
-    #section0 .container{
-        margin-top: 30%;
-        width: 50%;
-        height: 65%;
-        margin-left: 24%;
-        border-radius: 3rem;
-    }
-
-    #section0 .container img{
-        margin-top: 50%;
-        margin-left: 5%;
-    }
-
-    #section0 .container .started{
-        margin-top: 53%;
-        margin-left: 3%;
-    }
-
-    #section0 .container .started:hover{
-        margin-left: 3%;
-    }
-
-    #section0 .fa-message{
-        display: none;
-    }
-
-    #section0 .tt{
-        margin-top: -5%;
-        margin-left: 52.5%;
-    }
-
-    #section0 .design{
-        margin-top: -5%;
-        margin-left: 63%;
-    }
-
-    #section0 .contact{
-        margin-top: -5%;
-        margin-left: 40%;
-    }
-
-    #section0 .inputs{
-        margin-left: 36%;
-        margin-top: 60%;
-    }
-
-    #section0 .inputss{
-        margin-left: 36%;
-        margin-top: 60%;
-    }
-
-    /*    section 1     */
-
-    #section1{
-        width: 100%;
-        height: 225vh;
-    }
-
-    #section1 .welcome{
-        margin-left: 12%;
-        font-size: 35px;
-    }
-
-    #section1 .prints{
-        margin-top: 15%;
-        font-size: 25px;
-    }
-
-    #section1 .img1{
-        width: 40%;
-        margin-top: 20%;
-    }
-
-    #section1 .img1:hover{
-        width: 41%;
-    }
-
-    #section1 .img2{
-        width: 40%;
-        margin-left: 50%;
-        margin-top: 20%;
-    }
-    
-    #section1 .img2:hover{
-        width: 41%;
-    }
-
-    #section1 .img3{
-        width: 40%;
-        margin-left: 5%;
-        margin-top: 64%;
-    }
-
-    #section1 .img3:hover{
-        width: 41%;
-    }
-
-    #section1 .img4{
-        width: 40%;
-        margin-left: 50%;
-        margin-top: 72%;
-    }
-
-    #section1 .img4:hover{
-        width: 41%;
-    }
-
-    #section1 .img5{
-        width: 40%;
-        margin-top: 113%;
-    }
-
-    #section1 .img5:hover{
-        width: 41%;
-    }
-
-    #section1 .img56{
-        width: 40%;
-        margin-top: 113%;
-        margin-left: 50%;
-    }
-
-    #section1 .img56:hover{
-        width: 41%;
-    }
-
-    #section1 .img55{
-        width: 70%;
-        margin-top: 174%;
-        margin-left: 12%;
-    }
-
-    #section1 .img55:hover{
-        width: 71%;
-    }
-
-    /*    section 2    */
-    #section2{
-        width: 100%;
-        height: 230vh;
-    }
-    
-    #section2 .T{
-        margin-left: 45%;
-        font-size: 25px;
-    }
-
-    #section2 .img6{
-        width: 80%;
-        margin-top: 13%;
-        margin-left: 10%;
-    }
-
-    #section2 .img7{
-        width: 80%;
-        margin-top: 67%;
-        margin-left: 10%;
-    }
-
-    #section2 .img8{
-        width: 80%;
-        margin-top: 121%;
-        margin-left: 10%;
-    }
-
-    #section2 .img9{
-        width: 80%;
-        margin-top: 175%;
-        margin-left: 10%;
-    }
-
-    /*   section 3    */
-    #section3{
-        width: 100%;
-        height: 160vh;
-    }
-
-    #section3 .likod{
-        width: 80%;
-        margin-left: 10%;
-        height: 65vh;
-    }
-
-    #section3 p{
-        font-size: 19px;
-    }
-
-    #section3 .bg{
-        margin-left: 20%;
-        margin-top: 70%;
-        width: 50%;
+        margin-top: -20%;
+        margin-left: 110%;
+        border-radius: 50%;
         height: 50%;
     }
 
@@ -1268,327 +853,538 @@ footer .yt{
         margin-top: 110%;
     }
 
-    /*   footer      */
+    /*     footer      */
     footer{
         width: 100%;
-        height: 35vh;
+        height: 30vh;
     }
 
     footer table{
-        margin-left: 27%;
-    }
-
-    footer .you{
-        margin-top: 20%;
-    }
-
-    footer .fb{
-        margin-top: 13%;
-    }
-
-    footer .yt{
-        margin-top: 13%;
-        margin-left: 20%;
-    }
-
-    footer .tt{
-        margin-top: 13%;
-        margin-left: 12%;
+        margin-left: 32.5%;
     }
 
     footer .copyright{
-        margin-top: 24%;
-        opacity: 50%;
-        margin-left: 27%;
+        margin-top: 10%;
+        margin-left: 32%;
+    }
+
+    footer .fb{
+        margin-top: 2%;
+    }
+
+    footer .tt{
+        margin-top: 2%;
+        margin-left: 10%;
+    }
+
+    footer .yt{
+        margin-top: 2%;
+        margin-left: 17%;
     }
 }
 
-
-@media screen and (max-width: 767px) and (min-width: 425px) {
-    #section0 .container{
-        margin-top: 53%;
-        width: 80%;
-        height: 55vh;
-        margin-left: 10%;
-        border-radius: 3rem;
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    #section0{
+        width: 100%;
+        height: 100vh;
     }
 
-    #section0 .container img{
-        margin-top: 35%;
-        margin-left: 5%;
+    #section0 .container{
+        margin-top: 34%;
     }
 
     #section0 .container h1{
-        font-size: 35px;
-        margin-left: 20%;
+        font-size: 47px;
     }
 
     #section0 .container .started{
-        margin-top: 74%;
-        margin-left: 9%;
+        margin-top: 33%;
     }
 
-    #section0 .container .started:hover{
-        margin-left: 9%;
+    #section0 .tt{
+        margin-left: 72%;
+        margin-top: -4.5%;
+    }
+    
+    #section0 .design{
+        margin-left: 64%;
+        margin-top: -4.5%;
+    }
+
+    #section0 .contact{
+        margin-left: 53%;
+        margin-top: -4.5%;
     }
 
     #section0 .fa-message{
         display: none;
     }
 
-    #section0 .tt{
-        margin-top: -7%;
-        margin-left: 65.5%;
-    }
-
-    #section0 .design{
-        margin-top: -7%;
-        margin-left: 48%;
-    }
-
-    #section0 .contact{
-        margin-top: -7%;
-        margin-left: 23%;
-    }
-
     #section0 .inputs{
-        margin-left: 28%;
-        margin-top: 87%;
+        margin-top: -25%;
+        margin-left: 60%;
     }
 
     #section0 .inputss{
-        margin-left: 28%;
-        margin-top: 87%;
+        margin-top: -25%;
+        margin-left: 60%;
     }
 
-    /*    section 1     */
 
+    /*     section 1    */
     #section1{
-        width: 100%;
-        height: 135vh;
+        width: 100vh;
+        height: 300vh;
     }
 
     #section1 .welcome{
-        margin-left: 12%;
-        font-size: 25px;
+        margin-left: 8%;
+        font-size: 245%;
     }
 
     #section1 .prints{
-        margin-top: 23%;
-        font-size: 25px;
+        margin-top: 17%;
+        font-size: 35px;
     }
 
     #section1 .img1{
         width: 40%;
-        margin-top: 30%;
+        margin-top: 20%;
     }
 
     #section1 .img1:hover{
-        width: 41%;
+        width: 42%;
     }
 
     #section1 .img2{
         width: 40%;
         margin-left: 50%;
-        margin-top: 30%;
+        margin-top: 20%;
     }
-    
+
     #section1 .img2:hover{
-        width: 41%;
+        width: 42%;
     }
 
     #section1 .img3{
         width: 40%;
+        margin-top: 64%;
         margin-left: 5%;
-        margin-top: 74%;
     }
 
     #section1 .img3:hover{
-        width: 41%;
+        width: 42%;
     }
 
     #section1 .img4{
         width: 40%;
+        margin-top: 72%;
         margin-left: 50%;
-        margin-top: 84%;
     }
 
     #section1 .img4:hover{
-        width: 41%;
+        width: 42%;
     }
 
     #section1 .img5{
         width: 40%;
-        margin-top: 123%;
+        margin-top: 113%;
     }
 
     #section1 .img5:hover{
-        width: 41%;
-    }
-
-    #section1 .img56{
-        width: 40%;
-        margin-top: 123%;
-        margin-left: 50%;
-    }
-
-    #section1 .img56:hover{
-        width: 41%;
+        width: 42%;
     }
 
     #section1 .img55{
         width: 70%;
-        margin-top: 184%;
-        margin-left: 12%;
+        margin-left: 10%;
+        margin-top: 175%;
     }
 
     #section1 .img55:hover{
-        width: 71%;
+        width: 72%;
     }
 
-    /*    section 2    */
+    #section1 .img56{
+        width: 40%;
+        margin-top: 113%;
+        margin-left: 50%;
+    }
+
+    #section1 .img56:hover{
+        width: 42%;
+    }
+
+    /*      section 2        */
     #section2{
         width: 100%;
-        height: 130vh;
-    }
-    
-    #section2 .T{
-        margin-left: 45%;
-        font-size: 25px;
+        height: 270vh;
     }
 
     #section2 .img6{
-        width: 80%;
-        margin-top: 13%;
-        margin-left: 10%;
-        transform: translateY(-2);
+        width: 70%;
+        margin-left: 16%;
+        transform: translateX(10%);
         transition: all 1.5s;
     }
 
     #section2 .shirt1{
-        transform: translateY(0);
+        transform: translateX(0);
     }
 
     #section2 .img7{
-        width: 80%;
-        margin-top: 67%;
-        margin-left: 10%;
-        transform: translateY(-5);
+        width: 70%;
+        margin-left: 16%;
+        margin-top: 56%;
+        transform: translateX(10%);
         transition: all 1.5s;
     }
 
     #section2 .shirt2{
-        transform: translateY(0);
+        transform: translateX(0);
     }
 
     #section2 .img8{
-        width: 80%;
-        margin-top: 121%;
-        margin-left: 10%;
-        transform: translateY(-5);
+        width: 70%;
+        margin-left: 16%;
+        margin-top: 103%;
+        transform: translateX(10%);
         transition: all 1.5s;
     }
 
     #section2 .shirt3{
-        transform: translateY(0);
+        transform: translateX(0);
     }
 
     #section2 .img9{
-        width: 80%;
-        margin-top: 175%;
-        margin-left: 10%;
-        transform: translateY(-5);
+        width: 70%;
+        margin-left: 16%;
+        margin-top: 150%;
+        transform: translateX(10%);
         transition: all 1.5s;
     }
 
     #section2 .shirt4{
-        transform: translateY(0);
+        transform: translateX(0);
     }
 
-    /*   section 3    */
+    /*     section3       */
     #section3{
         width: 100%;
-        height: 120vh;
+        height: 145vh;
     }
 
     #section3 .likod{
-        width: 80%;
-        margin-left: 10%;
-        height: 45vh;
+        margin-left: 15%;
+        width: 75%;
     }
 
     #section3 p{
-        font-size: 10px;
-    }
-
-    #section3 .art{
-        margin-left: 14%;
-        margin-top: 1%;
-    }
-
-    #section3 .head{
-        font-size: 25px;
-    }
-
-    #section3 .desenyo{
-        font-size: 10px;
-    }
-
-    #section3 .tshirt{
-        font-size: 10px;
+        font-size: 18px;
     }
 
     #section3 .bg{
-        margin-left: 20%;
-        margin-top: 80%;
-        width: 50%;
-        height: 50%;
+        margin-left: -7%;
+        margin-top: 85%;
+        position: absolute;
     }
 
     #section3 .qualification{
-        margin-top: 115%;
-        width: 150%;
-        margin-left: -25%;
+        margin-left: 110%;
+        position: absolute;
+        width: 100%;
+        margin-top: 9%;
     }
 
     /*    footer      */
     footer{
         width: 100%;
         height: 35vh;
-    }
+    }    
 
     footer table{
-        font-size: 10px;
-        margin-left: 6%;
+        margin-left: 33%;
     }
 
     footer .copyright{
-        font-size: 10px;
-        margin-top: 50%;
-        margin-left: 20%;
+        margin-top: 10%;
+        margin-left: 33%;
     }
 
     footer .you{
-        font-size: 13px;
-        margin-top: 28%;
-        margin-left: 24%;
+        margin-top: -3%;
+    }
+}
+
+/*                         FOR CELLPHONE                                         */
+
+@media screen and (max-width: 767px) and (min-width: 566px) {
+    #cell-phone{
+        display: block;
     }
 
-    footer .tt{
-        font-size: 25px;
-        margin-top: 35%;
-        margin-left: 45%;
+    html{
+        scroll-behavior: smooth;
     }
 
-    footer .yt{
-        font-size: 25px;
-        margin-top: 35%;
-        margin-left: 70%;
+    .cell-phone{
+        background-color: #111;
+        width: 100%;
+        height: 100vh;
     }
 
-    footer .fb{
+    .second{
+        display: block;
+    }
+
+    #main1{
+        display: none;
+    }
+
+    #pangatlo{
+        display: block;
+    }
+
+    .custom-shape-divider-top-1674724246 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+    }
+    
+    .custom-shape-divider-top-1674724246 svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 150px;
+    }
+    
+    .custom-shape-divider-top-1674724246 .shape-fill {
+        fill: grey;
+    }
+    
+    /** For mobile devices **/
+    @media (max-width: 767px) {
+        .custom-shape-divider-top-1674724246 svg {
+            width: calc(100% + 1.3px);
+            height: 126px;
+        }
+    }
+
+    .main{
+        background-color: black;
+        margin-top: 25%;
+        margin-left: 25%;
+        width: 50%;
+        height: 50vh;
+        border-radius: 2rem;
+        box-shadow: 4px 0px 25px grey;
+        position: absolute;
+    }
+
+    .board1{
+        width: 50%;
+        margin-top: 5%;
+        margin-left: 25%;
+        position: absolute;
+    }
+
+    .contact1{
+        position: absolute;
+        text-decoration: none;
+        margin-top: 55%;
+        margin-left: 5%;
+        color: white;
+        font-size: 15px;
+    }
+
+    .tshirts1{
+        position: absolute;
+        text-decoration: none;
+        margin-top: 62%;
+        margin-left: 5%;
+        color: white;
+        font-size: 15px;
+    }
+
+    .designs1{
+        position: absolute;
+        text-decoration: none;
+        margin-top: 69%;
+        margin-left: 5%;
+        color: white;
+        font-size: 15px;
+    }
+
+    .fa-sun{
+        color: black;
+        font-size: 200%;
+        margin-top: 70%;
+        margin-left: 85%;
+        position: absolute;
+        opacity: 0;
+    }
+
+    .fa-moon{
+        color: red;
+        font-size: 200%;
+        margin-top: 70%;
+        margin-left: 85%;
+        position: absolute;
+        opacity: 100;
+    }
+
+    div h1{
+        color: red;
+    }
+
+    /*     second line     */
+
+    #second{
+        width: 100%;
+        height: 310vh;
+    }
+
+    #second .welcome{
+        color: white;
+        text-shadow: 2px 2px 2px red;
+        text-align: center;
+    }
+
+    #second #printer{
+        text-align: center;
+        margin-top: 5%;
+        color: white;
+        text-shadow: 2px 2px 2px red;
+    }
+
+    .second .img1{
+        position: absolute;
+        width: 40%;
+        margin-left: 5%;
+        margin-top: 10%;
+        box-shadow: 3px 0px 15px red;
+    }
+
+    .second .img2{
+        position: absolute;
+        width: 40%;
+        margin-left: 50%;
+        margin-top: 10%;
+        box-shadow: 3px 0px 15px red;
+    }
+
+    .second .img3{
+        position: absolute;
+        width: 40%;
+        margin-top: 55%;
+        margin-left: 5%;
+        box-shadow: 3px 0px 15px red;
+    }
+
+    .second .img4{
+        position: absolute;
+        width: 40%;
+        margin-top: 62.5%;
+        margin-left: 50%;
+        box-shadow: 3px 0px 15px red;
+    }
+
+    .second .img5{
+        position: absolute;
+        width: 40%;
+        margin-top: 105%;
+        margin-left: 5%;
+        box-shadow: 3px 0px 15px red;
+    }
+
+    .second .img55{
+        position: absolute;
+        width: 80%;
+        margin-top: 165%;
+        margin-left: 7%;
+        box-shadow: 3px 0px 15px red;
+    }
+
+    .second .img56{
+        position: absolute;
+        width: 40%;
+        margin-top: 105%;
+        margin-left: 50%;
+        box-shadow: 3px 0px 15px red;
+    }
+
+    /*      section 3         */
+    #pangatlo{
+        width: 100%;
+        height: 100vh;
+    }
+
+    #pangatlo #tshirt{
+        color: white;
+        text-shadow: 2px 2px 2px red;
+        text-align: center;
         font-size: 25px;
-        margin-top: 35%;
-        margin-left: 20%;
+    }
+
+    #pangatlo .img6{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        opacity: 0;
+        transition: all 3.5s;
+        box-shadow: 3px 0px 50px red;
+    }
+
+    #pangatlo .shirt1{
+        opacity: 100;
+    }
+
+    #pangatlo .img7{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        margin-top: 5%;
+        opacity: 0;
+        transition: all 3.5s;
+        box-shadow: 3px 0px 50px deepskyblue;
+    }
+
+    #pangatlo .shirt2{
+        opacity: 100;
+    }
+
+    #pangatlo .img8{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        margin-top: 5%;
+        opacity: 0;
+        transition: all 3.5s;
+        box-shadow: 3px 0px 50px red;
+    }
+
+    #pangatlo .shirt3{
+        opacity: 100;
+    }
+
+    #pangatlo .img9{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        margin-top: 5%;
+        opacity: 0;
+        transition: all 3.5s;
+        box-shadow: 3px 0px 50px deepskyblue;
+    }
+
+    #pangatlo .shirt4{
+        opacity: 100;
     }
 }
