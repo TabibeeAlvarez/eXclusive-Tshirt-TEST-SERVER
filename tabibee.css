@@ -28,6 +28,14 @@ body{
     display: none;
 }
 
+#tungkol{
+    display: none;
+}
+
+#paa-foot{
+    display: none;
+}
+
 /*   end of hides   */
 
 #section0{
@@ -1118,7 +1126,7 @@ footer .yt{
 
 /*                         FOR CELLPHONE                                         */
 
-@media screen and (max-width: 767px) and (min-width: 566px) {
+@media screen and (max-width: 767px) and (min-width: 625px) {
     #cell-phone{
         display: block;
     }
@@ -1142,6 +1150,14 @@ footer .yt{
     }
 
     #pangatlo{
+        display: block;
+    }
+
+    #tungkol{
+        display: block;
+    }
+
+    #paa-foot{
         display: block;
     }
 
@@ -1185,16 +1201,16 @@ footer .yt{
     }
 
     .board1{
-        width: 50%;
+        width: 60%;
         margin-top: 5%;
-        margin-left: 25%;
+        margin-left: 20%;
         position: absolute;
     }
 
     .contact1{
         position: absolute;
         text-decoration: none;
-        margin-top: 55%;
+        margin-top: 68%;
         margin-left: 5%;
         color: white;
         font-size: 15px;
@@ -1203,7 +1219,7 @@ footer .yt{
     .tshirts1{
         position: absolute;
         text-decoration: none;
-        margin-top: 62%;
+        margin-top: 78%;
         margin-left: 5%;
         color: white;
         font-size: 15px;
@@ -1212,7 +1228,7 @@ footer .yt{
     .designs1{
         position: absolute;
         text-decoration: none;
-        margin-top: 69%;
+        margin-top: 88%;
         margin-left: 5%;
         color: white;
         font-size: 15px;
@@ -1221,7 +1237,7 @@ footer .yt{
     .fa-sun{
         color: black;
         font-size: 200%;
-        margin-top: 70%;
+        margin-top: 88%;
         margin-left: 85%;
         position: absolute;
         opacity: 0;
@@ -1230,7 +1246,7 @@ footer .yt{
     .fa-moon{
         color: red;
         font-size: 200%;
-        margin-top: 70%;
+        margin-top: 88%;
         margin-left: 85%;
         position: absolute;
         opacity: 100;
@@ -1244,7 +1260,7 @@ footer .yt{
 
     #second{
         width: 100%;
-        height: 310vh;
+        height: 230vh;
     }
 
     #second .welcome{
@@ -1319,7 +1335,7 @@ footer .yt{
     /*      section 3         */
     #pangatlo{
         width: 100%;
-        height: 100vh;
+        height: 150vh;
     }
 
     #pangatlo #tshirt{
@@ -1386,5 +1402,108 @@ footer .yt{
 
     #pangatlo .shirt4{
         opacity: 100;
+    }
+
+    /*  tungkol       */
+
+    #tungkol{
+        width: 100%;
+        height: 100vh;
+    }
+
+    #tungkol .likod{
+        width: 70%;
+        height: 50vh;
+        margin-left: 15%;
+        margin-top: 20%;
+        position: absolute;
+        background-color: black;
+        border-radius: 2rem;
+        padding: 2%;
+    }
+
+    #tungkol .head{
+        color: white;
+        text-shadow: 3px 0px 15px red;
+        text-align: center;
+        padding: 2%;
+    }
+
+    #tungkol .head img{
+        width: 10%;
+        margin-left: 20%;
+        margin-top: -2%;
+        position: absolute;
+    }
+
+    #tungkol p{
+        color: white;
+        padding: 2%;
+        font-size: 13px;
+        margin-top: 5%;
+    }
+
+    #tungkol span{
+        color: red;
+    }
+
+    #tungkol .omsim{
+        text-decoration: none;
+        margin: 2%;
+        color: red;
+        position: absolute;
+    }
+
+    #tungkol .shirtt{
+        margin-top: -2%;
+        position: absolute;
+    }
+
+    #tungkol .senyo{
+        position: absolute;
+        margin-top:  -2%;
+        margin-left: 20%;
+    }
+
+    /*   footer     */
+
+    footer{
+        height: 50vh;
+    }
+
+    footer img{
+        margin-left: 10%;
+    }
+
+    footer p{
+        color: white;
+        font-size: 10px;
+        margin-left: 5%;
+        margin-top: -3%;
+    }
+
+    footer .fb{
+        color: white;
+        margin-left: 30%;
+        margin-top: 10%;
+    }
+
+    footer .yt{
+        color: white;
+        margin-left: 45%;
+        margin-top: 10%;
+    }
+
+    footer .tt{
+        color: white;
+        margin-left: 60%;
+        margin-top: 10%;
+    }
+
+    footer .line{
+        border: 1px solid red;
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 20%;
     }
 }

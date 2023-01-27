@@ -236,7 +236,10 @@ function off(){
     document.getElementById('printer').style.textShadow = '2px 2px 2px black'
     document.getElementById('printer').style.color = 'deepskyblue'
     document.getElementById('pangatlo').style.backgroundColor = 'white'
-    document.getElementById('img66').style.boxShadow = '3px 0px 15px deepskyblue'
+    document.getElementById('img66').style.boxShadow = '3px 0px 50px deepskyblue'
+    document.getElementById('img77').style.boxShadow = '3px 0px 50px red'
+    document.getElementById('img88').style.boxShadow = '3px 0px 50px deepskyblue'
+    document.getElementById('img99').style.boxShadow = '3px 0px 50px red'
 }
 
 function on(){
@@ -261,5 +264,10 @@ function on(){
     document.getElementById('welcomee').style.color = 'white'
     document.getElementById('printer').style.textShadow = '2px 2px 2px red'
     document.getElementById('printer').style.color = 'white'
+    document.getElementById('pangatlo').style.backgroundColor = '#111'
+    document.getElementById('img66').style.boxShadow = '3px 0px 50px red'
+    document.getElementById('img77').style.boxShadow = '3px 0px 50px deepskyblue'
+    document.getElementById('img88').style.boxShadow = '3px 0px 50px red'
+    document.getElementById('img99').style.boxShadow = '3px 0px 50px deepskyblue'
 
 }
