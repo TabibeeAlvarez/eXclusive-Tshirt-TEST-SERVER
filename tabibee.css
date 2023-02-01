@@ -449,6 +449,9 @@ body{
     opacity: 100;
 }
 
+#section2 audio{
+    opacity: 0;
+}
 
 
 /*    section 3    */

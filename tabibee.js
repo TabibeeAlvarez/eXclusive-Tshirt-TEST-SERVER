@@ -49,14 +49,14 @@ function lights(){
     document.getElementById('img7').style.boxShadow = '2px 0px 25px black';
     document.getElementById('img8').style.boxShadow = '2px 0px 25px black';
     document.getElementById('img9').style.boxShadow = '2px 0px 25px black';
-    // document.querySelector('.likod').style.backgroundColor = 'white'
-    // document.querySelector('.likod').style.boxShadow = '2px 0px 25px black'
-    // document.querySelector('.head').style.color = 'black'
-    // document.getElementById('sulat').style.color = 'black'
-    // document.getElementById('bg').style.backgroundColor = 'white'
-    // document.querySelector('.qualification').style.boxShadow = '3px 0px 25px black'
-    // document.querySelector('.qualification').style.backgroundColor = 'white'
-    // document.getElementById('infota').style.color = 'black'
+    document.querySelector('.likod').style.backgroundColor = 'white'
+    document.querySelector('.likod').style.boxShadow = '2px 0px 25px black'
+    document.querySelector('.head').style.color = 'black'
+    document.getElementById('sulat').style.color = 'black'
+    document.getElementById('bg').style.backgroundColor = 'white'
+    document.querySelector('.qualification').style.boxShadow = '3px 0px 25px black'
+    document.querySelector('.qualification').style.backgroundColor = 'white'
+    document.getElementById('infota').style.color = 'black'
 }
 
 function ilaws(){
@@ -87,14 +87,14 @@ function ilaws(){
     document.getElementById('img7').style.boxShadow = '2px 0px 25px red';
     document.getElementById('img8').style.boxShadow = '2px 0px 25px red';
     document.getElementById('img9').style.boxShadow = '2px 0px 25px red';
-    // document.querySelector('.likod').style.backgroundColor = 'black'
-    // document.querySelector('.likod').style.boxShadow = '2px 0px 25px red'
-    // document.querySelector('.head').style.color = 'white'
-    // document.getElementById('sulat').style.color = 'white'
-    // document.getElementById('bg').style.backgroundColor = 'black'
-    // document.querySelector('.qualification').style.boxShadow = '3px 0px 25px red'
-    // document.querySelector('.qualification').style.backgroundColor = 'black'
-    // document.getElementById('infota').style.color = 'white'
+    document.querySelector('.likod').style.backgroundColor = 'black'
+    document.querySelector('.likod').style.boxShadow = '2px 0px 25px red'
+    document.querySelector('.head').style.color = 'white'
+    document.getElementById('sulat').style.color = 'white'
+    document.getElementById('bg').style.backgroundColor = 'black'
+    document.querySelector('.qualification').style.boxShadow = '3px 0px 25px red'
+    document.querySelector('.qualification').style.backgroundColor = 'black'
+    document.getElementById('infota').style.color = 'white'
 }
 
 //T shirts
