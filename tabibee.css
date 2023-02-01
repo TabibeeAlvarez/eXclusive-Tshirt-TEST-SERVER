@@ -665,7 +665,7 @@ footer .yt{
     }
 
     #section0 .container .started{
-        margin-top: 22%;
+        margin-top: 25%;
     }
 
     #section2{
@@ -702,6 +702,12 @@ footer .yt{
         height: 250vh;
     }
 
+    #section2 .seemore{
+        text-align: center;
+        margin-top: 117%;
+        color: darkviolet;
+    }
+
     /*    section 3      */
      #section3 p{
         font-size: 140%;
@@ -718,6 +724,8 @@ footer .yt{
      #section3 .desenyo{
         margin-top: 55%;
      }
+
+
 }
 
 @media screen and (max-width: 1439px) and (min-width: 1024px) {
@@ -730,7 +738,7 @@ footer .yt{
     }
 
     #section0 .container .started{
-        margin-top: 25%;
+        margin-top: 28%;
     }
 
     #section0 .tt{
@@ -823,6 +831,12 @@ footer .yt{
         width: 50%;
         margin-left: 27%;
         margin-top: 110%;
+    }
+
+    #section2 .seemore{
+        text-align: center;
+        margin-top: 145%;
+        color: darkviolet;
     }
 
     /*   section3    */
@@ -1080,6 +1094,12 @@ footer .yt{
         transform: translateX(0);
     }
 
+    #section2 .seemore{
+        text-align: center;
+        color: darkviolet;
+        margin-top: 200%;
+    }
+
     /*     section3       */
     #section3{
         width: 100%;
@@ -1334,6 +1354,12 @@ footer .yt{
         margin-top: 105%;
         margin-left: 50%;
         box-shadow: 3px 0px 15px red;
+    }
+
+    #pangatlo .seeemore{
+        text-align: center;
+        color: darkviolet;
+        margin-top: 5%;
     }
 
     /*      section 3         */
@@ -1790,6 +1816,12 @@ footer .yt{
         opacity: 100;
     }
 
+    #pangatlo .seeemore{
+        text-align: center;
+        color: darkviolet;
+        margin-top: 5%;
+    }
+
     /*  tungkol       */
 
     #tungkol{
@@ -2170,6 +2202,12 @@ footer .yt{
 
     #pangatlo .shirt4{
         opacity: 100;
+    }
+
+    #pangatlo .seeemore{
+        text-align: center;
+        color: darkviolet;
+        margin-top: 5%;
     }
 
     /*  tungkol       */
