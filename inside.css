@@ -107,3 +107,17 @@ section hr{
     display: block;
     margin-top: 5%;
 }
+
+section .tshirts{
+    color: white;
+    text-align: center;
+    padding-top: 7%;
+}
+
+section .img2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-top: 5%;
+}
