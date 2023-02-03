@@ -12,11 +12,11 @@ html{
 }
 
 body{
-    background-color: #333;
+    background-color: black;
 }
 
 main nav{
-    background-color: black;
+    background-color: deepskyblue;
     height: 10vh;
 }
 
@@ -39,7 +39,7 @@ main .fa-arrow-left{
     margin-top: -4%;
     font-size: 25px;
     border: solid 3px deepskyblue;
-    border-radius: 2rem;
+    border-radius: 1rem;
     padding-left: 2%;
     padding-right: 2%;
     padding-top: 2%;
@@ -58,5 +58,5 @@ main .img{
 main h1{
     color: white;
     text-align: center;
-    text-shadow: 2px 2px 4px red;
+    text-shadow: 2px 2px 4px deepskyblue;
 }
