@@ -52,12 +52,16 @@ main .fa-arrow-left{
 }
 
 /*   inside below nav  */
-main .img{
+main .imahe{
     display: block;
     margin-right: auto;
     margin-left: auto;
     width: 50%;
     margin-top: 50%;
+}
+
+main .tago{
+    display: none;
 }
 
 main .etst{
@@ -67,7 +71,7 @@ main .etst{
     text-shadow: 2px 2px 4px deepskyblue;
 }
 
-/*   design and lay outs   */
+/*   design and lay outs == tshirt   */
 
 section{
     width: 100%;
@@ -120,4 +124,56 @@ section .img2{
     margin-right: auto;
     width: 80%;
     padding-top: 5%;
+}
+
+@media only screen and (min-width: 768px){
+    main li a{
+        font-size: 30px;
+        margin-top: 4%;
+    }
+
+    main .fa-arrow-left{
+        font-size: 40px;
+        margin-top: -3%;
+    }
+
+    /*   inside below nav  */
+    main .imahe{
+        margin-top: 50%;
+        margin-left: 35%;
+        width: 30%;
+        position: absolute;
+        display: none;
+    }
+
+    main .tago{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        margin-top: 40%;
+    }
+
+    main .etst{
+        font-size: 40px;
+        margin-top: 5%;
+    }
+
+    /*   design and lay outs == tshirt   */
+    section{
+        width: 100%;
+        height: 100vh;
+    }
+
+    section .design{
+        font-size: 40px;
+    }
+
+    section a{
+        font-size: 30px;
+    }
+
+    section .tshirts{
+        font-size: 40px;
+    }
 }
