@@ -43,7 +43,7 @@ main .fa-arrow-left{
     margin-left: -15%;
     margin-top: -4%;
     font-size: 25px;
-    border: solid 3px deepskyblue;
+    border: none;
     border-radius: 1rem;
     padding-left: 2%;
     padding-right: 2%;
@@ -93,6 +93,14 @@ section img{
     padding-top: 5%;
 }
 
+section .imgcar{
+    display: none;
+}
+
+section .imgmoon{
+    display: none;
+}
+
 section a{
     text-align: center;
     margin-left: auto;
@@ -135,6 +143,7 @@ section .img2{
     main .fa-arrow-left{
         font-size: 40px;
         margin-top: -3%;
+        border: none;
     }
 
     /*   inside below nav  */
@@ -151,7 +160,7 @@ section .img2{
         margin-left: auto;
         margin-right: auto;
         width: 50%;
-        margin-top: 40%;
+        margin-top: 20%;
     }
 
     main .etst{
@@ -171,9 +180,44 @@ section .img2{
 
     section a{
         font-size: 30px;
+        margin-bottom: 10%;
     }
 
     section .tshirts{
         font-size: 40px;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    main li a{
+        font-size: 20px;
+        margin-top: -0.5%;
+    }
+
+    main nav{
+        background-color: transparent;
+    }
+
+    main .fa-arrow-left{
+        margin-top: 0.5%;
+        font-size: 30px;
+        border: none;
+    }
+
+    /*   inside below nav  */
+    main .tago{
+        width: 20%;
+        margin-top: 10%;
+    }
+
+    section .carimg{
+        margin-left: 5%;
+        width: 40%;
+    }
+
+    section .moonimg{
+        margin-right: 5%;
+        width: 35%;
+        margin-top: -50%;
     }
 }
