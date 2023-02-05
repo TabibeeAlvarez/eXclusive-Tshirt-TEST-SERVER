@@ -4,49 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Home | EXCLUSIVE</title>
     <link rel="shortcut icon" href="ART.gif" type="image/x-icon">
     <link rel="stylesheet" href="inside.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
 <body>
     <main>
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html"><i class="fa-sharp fa-solid fa-arrow-left"></i></a>
-                    <a href="#tshirt">T shirt</a>
-                    <a href="#designs">Design / Layout</a>
-                </li>
-            </ul>
-        </nav>
-        <div class="img">
-            <img class="imahe" src="ART.gif" width="180" alt="">
-            <img class="tago" src="ART.gif" alt="">
-            <h1 class="etst">𝗘𝗫𝗖𝗟𝗨𝗦𝗜𝗩𝗘 𝗧𝗦𝗛𝗜𝗥𝗧</h1>
+        <div class="back">
+            <a href="index.html"><i class="fas fa-hand-point-left"></i></a>
         </div>
-    </main>
-        <section id="section1">
-            <div class="design">
-                <h1 class="design">Design / Layout's</h1>
-            </div>
-            <div id="designs" class="img">
-                <img class="carimg" src="CarShow.png" alt="">
-                <img class="moonimg" src="to the moon.png" alt="">
-                <img class="imgcar" src="CarShow.png" alt="">
-                <img class="imgmoon" src="to the moon.png" alt="">
-                <a href="">See more..</a>
-            </div>
-            <hr>
-            <div id="tshirt" class="tshirt">
-                <div class="tshirt-img">
-                    <h1 class="tshirts">T shirts</h1>
-                    <img class="img2" src="Luffy back.png" alt="">
-                    <img class="img2" src="Cogeo.png" alt="">
-                    <a href="">See more..</a>
+        <i id="opens" onclick="navopen()" class="fas fa-bars"></i>
+        <div id="background" class="background">
+            <div id="menubars" class="menubar">
+                <div id="loob" class="inside-menu">
+                    <i onclick="navclose()" id="cloose" class="fab fa-xing"></i>
+                    <a class="contact" href="">Contact Us</a>
+                    <a class="tshirt" href="">T shirt</a>
+                    <a class="design" href="">Design / Layouts</a>
                 </div>
             </div>
-        </section>
-    <script src="index.js"></script>
+        </div>
+    </main>
+    <script src="inside.js"></script>
 </body>
 </html>
