@@ -100,13 +100,13 @@ body{
     width: 60%;
     margin-top: 20%;
     transition: 1.5s;
-    transform: translateY(-200px);
+    /* transform: translateY(-200px);
     opacity: 0;
-    filter: blur(5px);
+    filter: blur(5px); */
 }
 
-.image{
+/* .image{
     transform: translateY(0);
     opacity: 100;
     filter: blur(0);
-}
+} */
