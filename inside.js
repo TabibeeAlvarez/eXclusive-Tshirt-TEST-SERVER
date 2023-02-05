@@ -17,8 +17,9 @@ function navopen(){
 function navclose(){
     document.querySelector('img').style.display = 'block';
 }
-// const img = document.querySelector('img');
 
-// img.addEventListener('load', () => {
-//     img.classList.add('image')
-// })
+const img = document.getElementById('image1');
+
+img.addEventListener('load', () => {
+  image1.classList.add('drop')
+})
