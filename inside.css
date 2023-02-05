@@ -50,7 +50,7 @@ body{
     float: right;
     right: 0;
     top: 0;
-    transition: 0.5s;
+    transition: 1.5s;
     transform: translateY(-250px);
     opacity: 0;
 }
@@ -118,7 +118,7 @@ body{
     margin-right: auto;
     display: block;
     transform: translateY(-150px);
-    transition: 0.5s;
+    transition: 2.5s;
     filter: blur(5px);
     opacity: 0;
 }
@@ -127,4 +127,38 @@ body{
     transform: translateY(0);
     filter: blur(0);
     opacity: 100;
+}
+
+.button1{
+    margin-top: 10%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    outline: none;
+    border: none;
+    background-color: deepskyblue;
+    transition: 0.5s;
+}
+
+.learn{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 5%;
+    outline: none;
+    border: none;
+    background-color: red;
+    transition: 0.5s;
+}
+
+.button1:hover{
+    background-color: rgb(255, 0, 200);
+    transition: 0.5s;
+}
+
+.learn:hover{
+    background-color: rgb(255, 0, 200);
+    transition: 0.5s;
 }
