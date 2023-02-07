@@ -34,3 +34,9 @@ function wels(){
     }
   })
 }
+
+function light(){
+  document.getElementById('main-div').style.backgroundColor = 'white';
+  document.getElementById('ilaw').style.display = 'none';
+  console.log('hello')
+}

@@ -102,6 +102,29 @@ body{
     text-align: center;
 }
 
+.inside-menu .ilaw{
+    background-color: black;
+    color: white;
+    padding: 2% 2% 2% 2%;
+    border-radius: 1rem;
+    margin-top: 20%;
+    margin-right: auto;
+    margin-left: 55%;
+    text-align: center;
+}
+
+.inside-menu .ilaws{
+    background-color: black;
+    color: white;
+    padding: 2% 2% 2% 2%;
+    border-radius: 1rem;
+    margin-top: 20%;
+    margin-right: auto;
+    margin-left: 55%;
+    text-align: center;
+    display: none;
+}
+
 .img1{
     display: block;
     margin-left: auto;
@@ -150,6 +173,7 @@ body{
     transition: 0.5s;
     text-align: center;
     text-decoration: none;
+    color: black;
 }
 
 .learn{
