@@ -36,7 +36,29 @@ function wels(){
 }
 
 function light(){
+  document.getElementById('ilaw').style.display = 'none'
+  document.getElementById('ilaws').style.display = 'block'
   document.getElementById('main-div').style.backgroundColor = 'white';
-  document.getElementById('ilaw').style.display = 'none';
-  console.log('hello')
+  document.getElementById('loob').style.backgroundColor = 'black'
+  document.getElementById('cloose').style.color = 'white'
+  document.getElementById('contact').style.color = 'white'
+  document.getElementById('tshirt').style.color = 'white'
+  document.getElementById('design').style.color = 'white'
+  document.getElementById('back').style.color = 'black'
+  document.getElementById('opens').style.color = 'black'
+
+}
+
+function dark(){
+  document.getElementById('ilaw').style.display = 'block'
+  document.getElementById('ilaws').style.display = 'none'
+  document.getElementById('main-div').style.backgroundColor = 'black';
+  document.getElementById('loob').style.backgroundColor = 'white'
+  document.getElementById('cloose').style.color = 'black'
+  document.getElementById('contact').style.color = 'black'
+  document.getElementById('tshirt').style.color = 'black'
+  document.getElementById('design').style.color = 'black'
+  document.getElementById('back').style.color = 'white'
+  document.getElementById('opens').style.color = 'white'
+
 }
