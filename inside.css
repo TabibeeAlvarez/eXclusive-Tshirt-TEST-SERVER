@@ -139,6 +139,8 @@ body{
     border: none;
     background-color: deepskyblue;
     transition: 0.5s;
+    text-align: center;
+    text-decoration: none;
 }
 
 .learn{
@@ -151,6 +153,9 @@ body{
     border: none;
     background-color: red;
     transition: 0.5s;
+    text-align: center;
+    text-decoration: none;
+    color: black;
 }
 
 .button1:hover{
