@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#mains{
+    width: 100%;
+    height: 400vh;
+}
+
+.fa-hand-point-left{
+    font-size: 30px;
+    color: black;
+    padding: 5%;
+}
+
+.ilaws{
+    float: right;
+    padding: 5%;
+    margin-top: -15%;
+    color: black;
+}
+
+.ilaw{
+    display: none;
+    float: right;
+    padding: 5%;
+    margin-top: -15%;
+    color: white;
+}
+
+.design-inside img{
+    width: 80%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 15%;
+}
+
+.design-inside .fa-hand-pointer{
+    font-size: 55px;
+    color: black;
+    margin-left: 40%;
+    margin-top: 5%;
+}
