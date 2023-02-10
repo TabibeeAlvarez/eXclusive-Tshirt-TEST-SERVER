@@ -10,10 +10,10 @@ html{
     scroll-behavior: smooth;
 }
 
-#mains{
+/* #mains{
     width: 100%;
     height: 400vh;
-}
+} */
 
 .fa-hand-point-left{
     font-size: 30px;
