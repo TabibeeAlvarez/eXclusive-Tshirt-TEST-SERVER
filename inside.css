@@ -114,8 +114,8 @@ body{
 }
 
 .inside-menu .ilaws{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 2% 2% 2% 2%;
     border-radius: 1rem;
     margin-top: 20%;
@@ -223,7 +223,7 @@ body{
 .designs{
     width: 100%;
     height: 110vh;
-    background-color: black;
+     background-image: linear-gradient(black , white);
 }
 
 .inside-design .welcome{
@@ -268,3 +268,36 @@ body{
     margin-left: 30%;
     text-decoration: none;
 }
+
+.inside-tshirt{
+    background-image: linear-gradient(white , black);
+    height: 100vh;
+    width: 100%;
+}
+
+.inside-tshirt h1{
+    padding: 5%;
+    color: black;
+    text-align: center;
+}
+
+.inside-tshirt img{
+    padding-top: 20%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.inside-tshirt a{
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding: 2% 2% 2% 2%;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    margin-left: 35%;
+    position: absolute;
+    margin-top: 5%;
+}
+
