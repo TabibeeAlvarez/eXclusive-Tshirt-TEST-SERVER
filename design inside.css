@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
 *{
+    margin: auto;
     padding: 0%;
-    margin: 0%;
     box-sizing: border-box;
     font-family: poppins;
 }
@@ -10,43 +11,45 @@ html{
     scroll-behavior: smooth;
 }
 
-/* #mains{
+#mains{
     width: 100%;
-    height: 400vh;
-} */
+    height: 310vh;
+}
+
+img{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
 
 .fa-hand-point-left{
-    font-size: 30px;
-    color: black;
+    font-size: 35px;
     padding: 5%;
+    color: black;
 }
 
 .ilaws{
     float: right;
-    padding: 5%;
-    margin-top: -15%;
-    color: black;
+    margin-right: 10%;
+    margin-top: -12%;
 }
 
 .ilaw{
     display: none;
-    float: right;
-    padding: 5%;
-    margin-top: -15%;
     color: white;
+    float: right;
+    margin-right: 10%;
+    margin-top: -12%;
 }
 
-.design-inside img{
-    width: 80%;
-    display: block;
+#pepe{
+    font-size: 35px;
     margin-right: auto;
     margin-left: auto;
-    padding-top: 15%;
-}
-
-.design-inside .fa-hand-pointer{
-    font-size: 55px;
     color: black;
-    margin-left: 40%;
-    margin-top: 5%;
+    margin-left: 45%;
+    padding-top: 10%;
+    text-decoration: none;
 }

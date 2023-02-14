@@ -15,69 +15,31 @@ body{
     background-color: black;
 }
 
-main .welcome img{
+img{
     width: 50%;
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    display: block;
     margin-top: 50%;
 }
 
-main .welcome h1{
+h1{
     color: white;
-    font-size: 30px;
-    text-align: center;
-    margin-top: 5%;
-}
-
-main .welcome button{
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
-    width: 50%;
-    margin-top: 5%;
-    font-size: 15px;
     display: block;
-    outline: none;
-    border: none;
-    transition: 0.5s;
+    width: 50%;
+    text-align: center;
 }
 
-main .welcome button:hover{
-    background-color: deepskyblue;
-    transition: 0.5s;
-}
-
-@media only screen and (min-width: 768px){
-    main .welcome img{
-        margin-top: 30%;
-        width: 40%;
-    }
-
-    main .welcome h1{
-        font-size: 50px;
-    }
-
-    main .welcome button{
-        font-size: 25px;
-        width: 30%;
-    }
-}
-
-@media only screen and (min-width: 1000px){
-    main .welcome img{
-        margin-top: 5%;
-        width: 20%;
-    }
-
-    main .welcome h1{
-        margin-top: 1%;
-        font-size: 60px;
-    }
-
-    main .welcome button{
-        font-size: 20px;
-        width: 30%;
-        margin-top: 1%;
-    }
+a{
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 50%;
+    text-align: center;
+    margin-top: 5%;
 }
