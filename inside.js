@@ -11,11 +11,11 @@ const loob = document.getElementById("loob"),
       })
 
 
-const img = document.getElementById('image1');
+// const img = document.getElementById('image1');
 
-img.addEventListener('load', () => {
-  image1.classList.add('drop')
-})
+// img.addEventListener('load', () => {
+//   image1.classList.add('drop')
+// })
 
 const welcome = document.querySelectorAll('.welcome');
 window.addEventListener('scroll', wels);

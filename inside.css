@@ -138,21 +138,11 @@ body{
 }
 
 .image{
-    transform: translateY(0);
-    opacity: 100;
-    filter: blur(0);
-}
-
-.image{
     width: 50%;
     margin-top: 40%;
     margin-left: auto;
     margin-right: auto;
     display: block;
-    transform: translateY(-150px);
-    transition: 2.5s;
-    filter: blur(5px);
-    opacity: 0;
 }
 
 .drop{
