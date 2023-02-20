@@ -43,3 +43,19 @@ a{
     text-align: center;
     margin-top: 5%;
 }
+
+@media screen and (min-width: 768px) {
+
+    img{
+        margin-top: 25%;
+        width: 40%;
+    }
+
+    h1{
+        font-size: 35px;
+    }
+
+    a{
+        font-size: 25px;
+    }
+}

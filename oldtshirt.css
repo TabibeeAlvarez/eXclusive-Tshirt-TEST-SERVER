@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+.tshirts img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+}
+
+.fa-hand-point-left{
+    font-size: 40px;
+    padding: 2%;
+    color: black;
+}

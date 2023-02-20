@@ -16,278 +16,136 @@ html{
     scroll-behavior: smooth;
 }
 
-.main-div{
-    width: 100%;
-    height: 100vh;
-}
-
-body{
+nav{
     background-color: black;
-    height: 100vh;
+    height: 8vh;
     width: 100%;
-}
-
-.back i{
-    color: white;
-    padding: 5%;
-    font-size: 25px;
-}
-
-.background i{
-    color: black;
-    float: right;
-    font-size: 25px;
-    margin-top: 5%;
-    margin-right: 80%;
-}
- 
-.fa-bars{
-    color: white;
-    font-size: 25px;
-    float: right;
-    margin-right: 5%;
-    margin-top: -10%;
-}
-
-.inside-menu{
-    background-color: white;
     position: absolute;
-    width: 250px;
-    height: 40vh;
-    border-radius: 0.5rem;
-    margin-top: -10%;
-    float: right;
-    right: 0;
-    top: 0;
-    transition: 1.5s;
-    transform: translateY(-250px);
-    opacity: 0;
 }
 
-.show{
-    transform: translateX(0);
-    opacity: 100;
+nav ul li{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
 }
 
-.menubar .fa-xing{
-    margin-top: 20%;
-    color: black;
-}
-
-.inside-menu a{
+nav ul li a{
+    color: white;
+    margin: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
     text-decoration: none;
-    color: black;
+}
+
+.new{
     position: absolute;
+    margin-top: 1%;
+    margin-left: -15%;
 }
 
-.inside-menu  .contact{
-    margin-right: auto;
-    margin-left: 10%;
-    margin-top: 40%;
-    text-align: center;
+.women{
     position: absolute;
+    margin-top: 1%;
+    margin-left: -5%;
 }
 
-.inside-menu .tshirt{
-    margin-top: 60%;
-    margin-right: auto;
-    margin-left: 10%;
-    text-align: center;
+.men{
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 7%;
 }
 
-.inside-menu .design{
-    margin-top: 80%;
-    margin-right: auto;
-    margin-left: 10%;
-    text-align: center;
+nav ul li img{
+    position: absolute;
+    width: 3.5%;
+    margin-left: -45%;
 }
 
-.inside-menu .ilaw{
-    background-color: black;
-    color: white;
-    padding: 2% 2% 2% 2%;
-    border-radius: 1rem;
+.background{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-image: url(picture/street.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 50%;
+    filter: blur(2px);
+    animation: tabibeeanimation;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes tabibeeanimation{
+    from{
+        background-image: url(picture/street.jpg);
+    }
+
+    to{
+        background-image: url(/picture/luffystreet.png);
+    }
+}
+
+.front{
+    background-color: transparent;
+    position: absolute;
     margin-top: 20%;
-    margin-right: auto;
-    margin-left: 55%;
+    margin-left: 30%;
     text-align: center;
+    font-size: 30px;
 }
 
-.inside-menu .ilaws{
+.front p{
+    font-size: 15px;
+}
+
+.new-arrivals{
+    width: 100%;
+    height: 240vh;
+    margin-top: 5%;
+    background-image: linear-gradient(white, black);
+}
+
+.new-arrivals h1{
+    color: black;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.new-arrivals img{
+    width: 50%;
+    margin-top: 5%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    transition: 1s;
+}
+
+.new-arrivals img:hover{
+    box-shadow: 3px 0px 50px red;
+    transition: 0.5;
+}
+
+.new-arrivals a{
     background-color: white;
     color: black;
-    padding: 2% 2% 2% 2%;
-    border-radius: 1rem;
-    margin-top: 20%;
-    margin-right: auto;
-    margin-left: 55%;
+    text-decoration: none;
+    padding-left: 2%;
+    padding-right: 2%;
     text-align: center;
-    display: none;
-}
-
-.img1{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
-    margin-top: 20%;
-    transition: 1.5s;
-    transform: translateY(-200px);
-    opacity: 0;
-    filter: blur(5px);
+    width: 20%;
+    margin-top: 2%;
+    transition: 1s;
 }
 
-.image{
-    width: 50%;
-    margin-top: 40%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-
-.drop{
-    transform: translateY(0);
-    filter: blur(0);
-    opacity: 100;
-}
-
-.button1{
-    margin-top: 10%;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    outline: none;
-    border: none;
+.new-arrivals a:hover{
     background-color: deepskyblue;
     transition: 0.5s;
-    text-align: center;
-    text-decoration: none;
-    color: black;
 }
-
-.learn{
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    margin-top: 5%;
-    outline: none;
-    border: none;
-    background-color: red;
-    transition: 0.5s;
-    text-align: center;
-    text-decoration: none;
-    color: black;
-}
-
-.browse{
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    background-color: rgb(255, 0, 200);
-    margin-top: 5%;
-    text-align: center;
-    text-decoration: none;
-    color: black;
-    transition: 0.5s;
-}
-
-.browse:hover{
-    background-color: red;
-    transition: 0.5s;
-}
-
-.button1:hover{
-    background-color: rgb(255, 0, 200);
-    transition: 0.5s;
-}
-
-.learn:hover{
-    background-color: rgb(255, 0, 200);
-    transition: 0.5s;
-}
-
-/*   second layer   */
-.designs{
-    width: 100%;
-    height: 110vh;
-     background-image: linear-gradient(black , white);
-}
-
-.inside-design .welcome{
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    display: block;
-    color: white;
-    transform: translateY(-100px);
-    opacity: 0;
-    filter: blur(5px);
-    transition: all 0.5s;
-}
-
-.inside-design .welcomes{
-    transition: 1.5s;
-    opacity: 100;
-    transform: translateY(0);
-    filter: blur(0);   
-}
-
-.inside-design{
-    padding: 5%;
-}
-
-.inside-design img{
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    padding-top: 5%;
-}
-
-.inside-design a{
-    text-align: center;
-    color: white;
-    background-color: black;
-    padding: 2% 2% 2% 2%;
-    border-radius: 0.5rem;
-    position: absolute;
-    margin-top: 5%;
-    margin-left: 30%;
-    text-decoration: none;
-}
-
-.inside-tshirt{
-    background-image: linear-gradient(white , black);
-    height: 100vh;
-    width: 100%;
-}
-
-.inside-tshirt h1{
-    padding: 5%;
-    color: black;
-    text-align: center;
-}
-
-.inside-tshirt img{
-    padding-top: 20%;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-
-.inside-tshirt a{
-    color: white;
-    text-align: center;
-    background-color: black;
-    padding: 2% 2% 2% 2%;
-    border-radius: 0.5rem;
-    text-decoration: none;
-    margin-left: 35%;
-    position: absolute;
-    margin-top: 5%;
-}
-
