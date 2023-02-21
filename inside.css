@@ -23,6 +23,10 @@ nav{
     position: absolute;
 }
 
+.fa-bars{
+    display: none;
+}
+
 nav ul li{
     display: block;
     margin-left: auto;
@@ -89,6 +93,10 @@ nav ul li img{
     }
 }
 
+.front img{
+    display: none;
+}
+
 .front{
     background-color: transparent;
     position: absolute;
@@ -148,4 +156,131 @@ nav ul li img{
 .new-arrivals a:hover{
     background-color: deepskyblue;
     transition: 0.5s;
+}
+
+@media screen and (min-width: 768px){
+    .new{
+        position: absolute;
+        margin-top: 3%;
+        margin-left: -20%;
+        font-size: 20px;
+    }
+    
+    .women{
+        position: absolute;
+        margin-top: 3%;
+        margin-left: -7%;
+        font-size: 20px;
+    }
+    
+    .men{
+        position: absolute;
+        margin-top: 3%;
+        margin-left: 11%;
+        font-size: 20px;
+    }
+
+    nav ul li img{
+        width: 8%;
+        margin-top: 1%;
+    }
+
+    .front{
+        margin-top: 20%;
+        margin-left: 10%;
+    }
+
+    .front img{
+        display: block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    .new-arrivals{
+        width: 100%;
+        height: 150vh;
+    }
+
+    .new-arrivals h1{
+        font-size: 70px;
+    }
+
+    .new-arrivals img{
+        width: 80%;
+    }
+    
+    .new-arrivals a{
+        font-size: 25px;
+        margin-top: 2%;
+    }
+}
+
+@media screen and (min-width: 375px){
+    .new{
+        position: absolute;
+        margin-top: -13%;
+        margin-left: -25%;
+        font-size: 15px;
+    }
+    
+    .women{
+        position: absolute;
+        margin-top: -13%;
+        margin-left: -7%;
+        font-size: 15px;
+    }
+    
+    .men{
+        position: absolute;
+        margin-top: -13%;
+        margin-left: 20%;
+        font-size: 15px;
+    }
+
+    .fa-xing{
+        font-size: 30px;
+        float: right;
+        margin-right: 10%;
+        margin-top: 10%;
+    }
+
+    nav ul img{
+        width: 15%;
+        margin-top: 1%;
+    }
+
+    .front{
+        font-size: 15px;
+        margin-left: 5%;
+        margin-top: 70%;
+    }
+
+    .front img{
+        display: block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .new-arrivals{
+        width: 100%;
+        height: 120vh;
+    }
+
+    .new-arrivals h1{
+        font-size: 30px;
+        margin-top: 20%;
+    }
+
+    .new-arrivals img{
+        width: 90%;
+        margin-top: 10%;
+    }
+
+    .new-arrivals a{
+        margin-top: 10%;
+        width: 50%;
+    }
 }
